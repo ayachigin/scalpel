@@ -45,14 +45,15 @@ library
           base          >= 4.6 && < 5
       ,   bytestring
       ,   containers
-      ,   curl          >= 1.3.4
+      ,   wreq
       ,   data-default
       ,   fail
       ,   regex-base
       ,   regex-tdfa
       ,   tagsoup       >= 0.12.2
       ,   text
-      ,   vector
+      , vector
+      ,  lens
   default-extensions:
           ParallelListComp
       ,   PatternGuards
